@@ -4,7 +4,7 @@
 *  * get_len - Get the lenght of a number.
 *   * @n: type int number.
 *    * Return: Lenght of a number.
-*     */
+**/
 int get_len(int n)
 {
 unsigned int n1;
@@ -31,7 +31,7 @@ return (lenght);
 *  * aux_itoa - function converts int to string.
 *   * @n: type int number
 *    * Return: String.
-*     */
+**/
 char *aux_itoa(int n)
 {
 unsigned int n1;
@@ -69,7 +69,7 @@ return (buffer);
 *  * _atoi - converts a string to an integer.
 *   * @s: input string.
 *    * Return: integer.
-*     */
+**/
 int _atoi(char *s)
 {
 unsigned int count = 0, size = 0, oi = 0, pn = 1, m = 1, i;
@@ -96,6 +96,6 @@ for (i = count - size; i < count; i++)
 oi = oi + ((*(s + i) - 48) * m);
 m /= 10;
 }
-return (oi * pn);
+return (oi *pn);
 }
 

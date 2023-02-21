@@ -4,7 +4,7 @@
 *  * _strdup - duplicates a str in the heap memory.
 *   * @s: Type char pointer str
 *    * Return: duplicated str
-*     */
+**/
 char *_strdup(const char *s)
 {
 char *new;
@@ -22,7 +22,7 @@ return (new);
 *  * _strlen - Returns the lenght of a string.
 *   * @s: Type char pointer
 *    * Return: Always 0.
-*     */
+**/
 int _strlen(const char *s)
 {
 int len;
@@ -39,7 +39,7 @@ return (len);
 *    * @delim: delimiter.
 *     *
 *      * Return: 1 if are equals, 0 if not.
-*       */
+**/
 int cmp_chars(char str[], const char *delim)
 {
 unsigned int i, j, k;
@@ -66,7 +66,7 @@ return (0);
 *    * @delim: delimiter.
 *     *
 *      * Return: string splited.
-*       */
+**/
 char *_strtok(char str[], const char *delim)
 {
 static char *splitted, *str_end;
@@ -115,7 +115,7 @@ return (str_start);
 *   *
 *    * @s: input string
 *     * Return: 1 if string is a number. 0 in other case.
-*      */
+**/
 int _isdigit(const char *s)
 {
 unsigned int i;
