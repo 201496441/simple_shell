@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-* get_help - function that retrieves help messages according builtin
+* get_help - function that retrieves help messages according built in
 * @datash: data structure (args and input)
 * Return: Return 0
 */
